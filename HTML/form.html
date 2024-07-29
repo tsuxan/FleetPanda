@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <section>
+        <div><img src="https://www.fleetpanda.com/wp-content/uploads/2023/06/fleedpanda-logo.png"></div>
+        </section>
+        <header class="header">
+            <nav class="nav-items">
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact</a>
+            </nav>
+          </header>
+        <title>A Simple Html webpage</title>
+        <section>
+            <img src="https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721088000&semt=ais_user" height="160px" width="100%" class="logo"></img><br>
+
+        </section>   
+        <div>
+            <section style="border: 1px solid rgb(119, 83, 83);">
+            <h2>Header</h2>
+            <p style="color: brown;">The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+            </section>
+        </div>
+        
+            
+            <style>
+            header{
+                display:flex;
+                flex-direction: row;
+                align-items: flex-end;
+                justify-content: right;
+            }
+            #form-container{
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                justify-content: left;
+                width: 50%;
+            }
+            form{ 
+                display: flex;
+                flex-direction: column; 
+                justify-items: left;
+                border-style: solid;
+            }
+            footer{
+                text-align: center;
+                color: blue;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+
+    </head>
+    <body style ="background-color: rgb(43, 226, 174);">
+        
+    <section style="border: 1px solid black;">
+        <div style="background-color: aquamarine;">
+        <h2>About Us</h2>
+        <p>The World Wide Fund for Nature (WWF) is a Swiss-based international non-governmental organization founded in 1961 that works in the field of wilderness preservation and the reduction of human impact on the environment.
+             It was formerly named the World Wildlife Fund, which remains its official name in Canada and the United States. 
+            WWF is the world's largest conservation organization, with over five million supporters worldwide, working in more than 100 countries and supporting around 3,000 conservation and environmental projects.
+            They have invested over $1 billion in more than 12,000 conservation initiatives since 1995.
+            WWF is a foundation with 65% of funding from individuals and bequests, 17% from government sources (such as the World Bank, DFID, and USAID) and 8% from corporations in 2020.[</p>
+        </div>
+        </section>
+        <section style="border: 2px solid purple;">
+        <div id="form-container" style="background-color: azure;" >
+            <h3>Basic form</h3>
+        <form><table>
+            <tr>
+                <td>
+                   <b> Full Name:</b>
+                </td>
+                <td>
+                        <input type="text" placeholder="Full Name" padding: 5px;"><br/><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <b> Age:</b>
+                </td>
+                <td>
+                        <input type="number " placeholder="Age" padding: 5px;"><br/><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <b> UserName:</b>
+                </td>
+                <td>
+                        <input type="text" placeholder="UserName" padding: 5px;"><br/><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <b> Gender:</b>
+                </td>
+                <td>
+                        <input type="radio" id="option1" name="options" value="option1">
+                        <label for="option1">Male</label>
+            
+                        <input type="radio" id="option2" name="options" value="option2">
+                        <label for="option2">Female</label>
+            
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <b> Hobbies:</b>
+                </td>
+                <td>
+                    <input type='checkbox' id ='option1' name ="options" value="options1">
+                    <label for="option1">Movies</label>
+    
+                    <input type='checkbox' id ='option2' name ="options" value="options2">
+                    <label for="option2">Outdoor Activities</label>
+    
+                    <input type='checkbox' id ='option3' name ="options" value="options3">
+                    <label for="option3">Sports</label>
+    
+                    <input type='checkbox' id ='option4' name ="options" value="options4">
+                    <label for="option4">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value ="Submit">
+                </td>
+            </tr>              
+
+        </div></table></form>
+    </body>
+    
+   <div>
+    <footer>
+        <p>Author: &copy;Sujan</p>
+    </footer>
+   </div>
+</html>
+

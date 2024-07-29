@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sample Website  </title>
+        <link rel="stylesheet" href ="./style/style.css">
+       
+    </head>
+    <body>
+        <div>
+            <section class="nav-flex">
+                <div>
+                    <a href ="Index.html"> <img src="./Assets/fleedpanda.png"></a>
+                </div>
+                
+                    <header class="navbar">
+                        <ul>
+                            <li><a href="Index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li id="hidden" hidden><a href="Blogs.html">Blogs</a></li>
+                        </ul>
+                        
+                    </header>
+                    <div id="navbar_login">
+                    </div>
+            </section>
+            
+        </div>
+               
+        
+        <section class="headerImage">
+          <p class="Welcome"><i>FleetPanda is the ally you need </i></p>
+        </section>
+        <section >
+            <div >
+            <h2 id="About">About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ipsa unde laboriosam cum dicta. Minus ullam nisi natus in cumque autem aspernatur! Sapiente tempore vitae error perspiciatis expedita quaerat consectetur!</p>
+            </div>
+            </section>
+        <section>
+            <div>
+                <h2 id="why">Why Choose Us</h2>
+            </div>
+        </section>
+        <section class="Box">
+            <div id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae perferendis ipsa, amet rem dolore sint. Fuga possimus sequi commodi distinctio vel, aperiam dolorem illo reprehenderit eius iusto, alias ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, omnis beatae ex doloribus recusandae aut autem iure adipisci minima tempore cupiditate laudantium animi consequatur tempora perferendis minus debitis numquam velit? </div>
+            <div id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae perferendis ipsa, amet rem dolore sint. Fuga possimus sequi commodi distinctio vel, aperiam dolorem illo reprehenderit eius iusto, alias ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, omnis beatae ex doloribus recusandae aut autem iure adipisci minima tempore cupiditate laudantium animi consequatur tempora perferendis minus debitis numquam velit?</div>
+            <div id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae perferendis ipsa, amet rem dolore sint. Fuga possimus sequi commodi distinctio vel, aperiam dolorem illo reprehenderit eius iusto, alias ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, omnis beatae ex doloribus recusandae aut autem iure adipisci minima tempore cupiditate laudantium animi consequatur tempora perferendis minus debitis numquam velit?</div>
+        </section>
+        <section>
+            <div class="subs">
+                <div>
+                    <p><h2>Join Our Newsletter</h2></p><br>
+                    <span id="sub" >Get regular industry insights, product updates and more</span>  
+                </div>
+                      
+                 <div>
+                <input type="Username" placeholder="Your email" style="width: 250px; height: 30px;" >
+                 <input type="Button" value="Subscribe" style="width:100px;color: orange; font-size: 16px;">
+                 </div>
+            </div>
+        </section>         
+       
+        <section>
+            <div class="table">
+                <div class="platform"><h3>Platform</h3><br>
+               <h4>Reporting and Analysis</h4><br>
+                <h4>Driver App</h4><br>
+                <h4>Reconsillation and Invoicing</h4> <br>
+                <h4>Pricing and Fee management</h4><br>
+                </div>
+                <div class="platform"><h3>Business Line</h3><br>
+                    <a href="#">Onsite Fueling</a><br>
+                    <h4>Lubricants</h4><br>
+                    <h4>Bulk Transport</h4> <br>
+                    <h4>Rental Management</h4><br>
+                    <h4>Propane/heating Oil</h4><br>                    
+                </div>
+                <div class="platform"><h3>Customer</h3><br>
+                <h4>Case Studies</h4><br>
+                <h4>Wall of Love</h></h4><br>
+                </div>
+                
+                <div class="platform"><h3>Company</h3><br>
+                    <h4>Our Story</h4><br>
+                    <h4>Why us</h4><br>
+                    <h4>Implementation and support</h4> <br>
+                    <h4>FAQs</h4><br>
+                    <h4>Product Updates</h4> <br>
+                    <h4>Press</h4><br>
+                </div>
+                <div class="platform"><h3>Resources</h3><br>
+                    <h4>Blogs</h4><br>
+                    <h4>Ebook</h4><br>
+                    <h4>Seminars</h4> <br>
+                    <h4>Podcasts</h4><br>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="form-container" name="form" onsubmit="return validateform()">
+                <form class="form" id ="myform">
+                    <a><h2>Let Us Call you back</h2></a>
+                    <div class="flex">
+                          
+                            <a>My Name is</a>
+                             <a><input type="text" id ="name" placeholder="Your Name" oninput="validateName()" id="name" ></a>
+                             <P class="error" id="nameErr"></p>
+                        
+                    </div>
+                      
+                    <div class="flex">
+                            <a>My contact no. is</a>
+                            <a><input type="number" placeholder="Your Number" oninput="validateNumber()" name="number" id="number"></a>
+                            <p class="error" id="numberErr"></p>
+                        
+                    </div>
+                    <div class="flex">
+                        <a>My email is</a>
+                        <a><input type="email" placeholder="Your Email" height="10%" name="email" id = "email" ></a>
+                        <p class="error" id="emailErr" ></p>
+                        
+                    
+                    </div>
+                    <div class="flex">
+                        <a>My organization is</a>
+                        <a><input type="Text" placeholder="Your Organization" oninput ="validateorganization()" id="organization" ></a>
+                        <p class="error" id="orgErr"></p>
+                        
+                    </div>
+                    <div style="text-align: center;" >
+                        
+                        <input type="submit"value ="Connect with Us" name="submit">
+                    </div>
+                            
+                         
+                    <a>We will Get back to you as soon as we can. Thanks</a>
+                </form>
+                
+            </div>
+  
+            
+        </section>
+        <div  >
+            <footer>
+            <p>Stay connected With us on </p>
+            <div class="footer-item">
+                <a href="https://www.youtube.com"><img src="./Assets/youtube.png" width=" 50px" height="50px"></a><br>
+                <a href="https://www.instagram.com"><img src="./Assets/Instagram.jpg" width=" 50px" height="50px"></a><br>
+                <a href="https://www.twitter.com"><img src="./Assets/x.png" width=" 50px" height="50px"></a> 
+                <img src="./Assets/mail.jpg" height="70px" width="70px">sales@fleetpanda.com
+                <img src="./Assets/call.png" width=" 50px" height="50px">415-260-8142
+             </div>
+             </footer>
+        </div>  
+        <script src="./script/index.js"></script> 
+    </body>
+</html>

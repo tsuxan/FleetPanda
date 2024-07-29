@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: azure;
+}
+
+.Blog{
+    margin-top: 15px;
+    align-self: center;
+    border: 2px solid;
+    width: 70%;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 30px;
+    border-color: orange;
+}
+h2 {
+
+    text-align: center;
+}
+.post{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
